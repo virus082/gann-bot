@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: gann-trend-alert-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python trend_alert_bot.py
+    autoDeploy: true
